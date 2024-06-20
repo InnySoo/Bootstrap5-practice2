@@ -2,6 +2,7 @@
 
 $brand-green: #0e2d16;
 $brand-ligth-beige: #aba097;
+$brand-yellowish: #b1a285;
 $brand-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 
 body, h1, h2, h3, h4, h5, h6, p, a, ul ,li, button, input, textarea, select, span, small {
@@ -97,6 +98,41 @@ body, h1, h2, h3, h4, h5, h6, p, a, ul ,li, button, input, textarea, select, spa
         width: 100%;
         margin-bottom: 1rem;
       }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+#frontInfos {
+  .card,
+  img {
+    border-radius: 1rem;
+  }
+
+  .socials {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    .card {
+      border: none;
+      border-radius: 3rem;
+    }
+
+    img {
+      border-radius: 3rem;
+    }
+  }
+
+  .infos {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    .card.card-body {
+      background-color: lighten($brand-yellowish, 20%);
+      min-height: 20rem;
 
       p {
         font-size: 1.1rem;
