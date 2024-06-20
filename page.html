@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/app.css">
+  <title>Second Web Project</title>
+</head>
+
+<body>
+  <header id="header" class="wrapper">
+
+    <section id="navTop" class="nav-top py-2 d-none d-md-block">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-3 text-start lead fast-counsel">
+            <a href="#" class="btn btn-outline-dark">Contact</a>
+          </div>
+          <div class="col-4 logo">
+            <a href="index.html" class="navbar-brand d-flex">
+              <img src="./assets/images/dummy-logo.png" alt="" class="img-fluid ms-auto" width="200px" data-bs-toggle="tooltip" data-bs-placement="bottom" title="My web site">
+            </a>
+          </div>
+          <div class="col-5 text-end socials">
+            <a href="tel:02-111-1111" class="mx-1 text-decoration-none">
+              <img src="./assets/images/icon-phone.png" alt="Phone" width="40px" class="shadow-box">
+            </a>
+            <a target="_blank" href="#" class="mx-1 text-decoration-none">
+              <img src="./assets/images/icon-kakao-channel.png" alt="Kakao Channel" width="40px" class="shadow-box">
+            </a>
+            <a target="_blank" href="#" class="mx-1 text-decoration-none">
+              <img src="./assets/images/icon-facebook.png" alt="Faceboot" width="40px" class="shadow-box">
+            </a>
+            <a target="_blank" href="#" class="mx-1 text-decoration-none">
+              <img src="./assets/images/icon-twitter.png" alt="Twitter" width="40px" class="shadow-box">
+            </a>
+            <a target="_blank" href="#" class="mx-1 text-decoration-none">
+              <img src="./assets/images/icon-youtube.png" alt="Youtube" width="40px" class="shadow-box">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav id="navPrimary" class="navbar navbar-expand-md navbar-dark">
+      <div class="container-xxl">
+        <a class="navbar-brand d-block d-md-none" href="index.html">
+          <img src="./assets/images/dummy-logo.png" alt="Logo" class="img-fluid">
+        </a>
+        <div class="collapse navbar-collapse" id="navPrimaryContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Intro
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="page.html">About us</a></li>
+                <li><a class="dropdown-item" href="page.html">Find us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="page.html">Documents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page.html">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary" href="#"><i class="fa fa-search"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="btn btn-outline-secondary d-block d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end d-block d-md-none" data-bs-scroll="true" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvasRightLabel">My second web project</h5>
+            <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="list-unstyled mobile-menu">
+              <li><a href="index.html" class="text-decoration-none link-dark">Home</a></li>
+              <li>
+                <a href="page.html" class="text-decoration-none link-dark">Intro</a>
+                <ul class="list-unstyled ms-3">
+                  <li><a href="page.html" class="text-decoration-none link-dark">About us</a></li>
+                  <li><a href="page.html" class="text-decoration-none link-dark">Find us</a></li>
+                </ul>
+              </li>
+              <li><a href="page.html" class="text-decoration-none link-dark active">Documents</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Gallery</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Blog</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Events</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Reviews</a></li>
+              <li><a href="page.html" class="text-decoration-none link-dark">Reservation</a></li>
+              <li><a href="#" class="btn btn-outline-secondary w-100"><i class="fa fa-search"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="topBanner" class="mx-3" style="background-image: url('./assets/images/project-1.jpg');">
+    <div class="section-content overlay d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="display-4">Page Title</h1>
+          <h4 class="fw-light">Page Subtitle Here</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="pageContent">
+    <div class="section-content">
+      <div class="container">
+        <div class="row">
+          <aside class="col-md-3 mb-4">
+            <div class="list-group shadow">
+              <p class="list-group-item list-group-item-action active mb-0" aria-current="true">Current item</p>
+              <a href="#" class="list-group-item list-group-item-action">Sub page 1</a>
+              <a href="#" class="list-group-item list-group-item-action">Sub page 2 <span class="badge rounded-pill bg-danger float-end">New</span></a>
+              <a href="#" class="list-group-item list-group-item-action">Sub page 3</a>
+            </div>
+          </aside>
+          <article class="col-md-9 mb-4 fw-light">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate veniam quibusdam nostrum, consequatur sequi voluptates sunt facilis inventore id, eum pariatur ipsam aliquam, molestias ab ad molestiae ratione! Cupiditate laborum optio rem minima quo voluptatum provident distinctio maxime. Magni laudantium fugit nam magnam similique laborum minima vero optio ad.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="section-content">
+      <div class="container">
+        <div class="nav-footer">
+          <a href="page.html" class="link-light text-decoration-none fw-light">Privacy policy</a> |
+          <a href="page.html" class="link-light text-decoration-none fw-light">Terms of use</a> |
+          <a href="page.html" class="link-light text-decoration-none fw-light">Business hour</a>
+        </div>
+        <hr class="hr-white">
+        <div class="row align-items-center">
+          <div class="col-md-3 text-center mb-3 mb-md-0">
+            <img src="./assets/images/dummy-logo.png" alt="Logo" class="img-fluid" width="200px">
+          </div>
+          <div class="col-md-9 footer-informations">
+            <p><strong>My Second Web Project</strong> | CEO Name: Soo In Cho | Business No: 111-11-1111 | TEL: 02-111-1111 <br>Address: 11-111 Sooin-dong Jung-gu Seoul Korea <br></p>
+            <a href="tel:02-111-1111" class="mx-1 text-decoration-none social">
+              <img src="./assets/images/icon-phone.png" alt="Phone" class="shadow-box" width="48px">
+            </a>
+            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+              <img src="./assets/images/icon-facebook.png" alt="Facebook" class="shadow-box" width="48px">
+            </a>
+            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+              <img src="./assets/images/icon-kakao-channel.png" alt="Kakao Channel" class="shadow-box" width="48px">
+            </a>
+            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+              <img src="./assets/images/icon-twitter.png" alt="Twitter" class="shadow-box" width="48px">
+            </a>
+            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+              <img src="./assets/images/icon-youtube.png" alt="Youtube" class="shadow-box" width="48px">
+            </a>
+
+            <br>
+
+            <span class="copyright">Copyright &copy; My BS5 Wep - Second Website. <script>document.write(new Date().getFullYear())</script>. All rights reserved. | Designed by <span class="text-warning">Sooin</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d7d199b0245b093a64755e92d2361a5a"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
