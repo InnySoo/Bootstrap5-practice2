@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 $brand-green: #0e2d16;
+$brand-ligth-beige: #aba097;
 $brand-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 
 body, h1, h2, h3, h4, h5, h6, p, a, ul ,li, button, input, textarea, select, span, small {
   font-family: 'Roboto', sans-serif;
+}
+
+.section-content {
+  padding: 4rem 0;
 }
 
 .shadow-box {
@@ -70,6 +75,31 @@ body, h1, h2, h3, h4, h5, h6, p, a, ul ,li, button, input, textarea, select, spa
         height: 100%;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.35);
+      }
+    }
+  }
+}
+
+#frontPrograms {
+  background-color: lighten($brand-ligth-beige, 25%);
+
+  .program-item {
+    border-radius: 1rem;
+
+    a {
+      color: $brand-green;
+
+      img {
+        border-radius: 1rem;
+        object-fit: cover;
+        object-position: center;
+        height: 130px;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.1rem;
       }
     }
   }
